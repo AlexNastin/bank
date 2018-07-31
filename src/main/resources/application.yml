@@ -1,0 +1,6 @@
+spring:
+  data:
+    cassandra:
+      port: 32784
+      schema-action: create_if_not_exists
+      keyspace-name: bank
